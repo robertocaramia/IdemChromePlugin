@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "iDem",
+  "description": "This extension retrieve the token for access to iDem Blockchain",
+  "version": "1.1.0",
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "web_accessible_resources": [
+    "data/RSA.priv",
+    "data/SYMETRIC-key.ti"
+  ],
+  "permissions": [
+    "activeTab"
+  ]
+}
